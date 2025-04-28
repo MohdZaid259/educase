@@ -1,4 +1,4 @@
-export default function Login() {
+export default function Login(props) {
   return (
     <div className="flex h-[600px] w-[300px] flex-col">
       <h1 className="text-2xl font-bold text-gray-800">Signin to your <br/> PopX account</h1>
@@ -34,7 +34,7 @@ export default function Login() {
         </div>
 
         <button
-          type="submit"
+          type="submit" onClick={()=>props.setPage(4)}
           className="w-full py-2 bg-[#CBCBCB] rounded-md text-white hover:bg-gray-400 transition mt-2"
         >
           Login

@@ -13,13 +13,13 @@ function App() {
     <main className="flex min-h-screen flex-col items-center justify-center">
       <div className="grid grid-cols-1">
         {page == 1 && <div className="border bg-[#F7F8F9] border-gray-200 rounded-sm p-6">
-          <Home />
+          <Home setPage={setPage} />
         </div>}
         {page == 2 && <div className="border border-gray-200 rounded-sm bg-[#F7F8F9] p-6">
-          <Login />
+          <Login setPage={setPage}/>
         </div>}
         {page == 3 && <div className="border bg-[#F7F8F9] border-gray-200 rounded-sm p-6">
-          <Signup />
+          <Signup setPage={setPage} />
         </div>}
         {page == 4 && <div className="border bg-[#F7F8F9] border-gray-200 rounded-sm">
           <Account />

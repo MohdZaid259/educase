@@ -1,4 +1,5 @@
-export default function Home() {
+export default function Home(props) {
+
   return (
     <div className="flex h-[600px] w-[300px] flex-col justify-end ">
       <div>
@@ -7,10 +8,10 @@ export default function Home() {
       </div>
 
       <div className="mt-6 space-y-2">
-        <button className="w-full py-2 bg-[#6C25FF] text-white rounded-md hover:bg-indigo-700 font-semibold transition">
+        <button onClick={()=>props.setPage(3)} className="w-full py-2 bg-[#6C25FF] text-white rounded-md hover:bg-indigo-700 font-semibold transition">
           Create Account
         </button>
-        <button className="w-full py-2 bg-[#CEBAFB] text-black rounded-md hover:bg-indigo-300 font-semibold transition">
+        <button onClick={()=>props.setPage(2)} className="w-full py-2 bg-[#CEBAFB] text-black rounded-md hover:bg-indigo-300 font-semibold transition">
           Already Registered? Login
         </button>
       </div>

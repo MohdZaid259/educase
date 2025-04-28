@@ -1,4 +1,4 @@
-export default function Signup() {
+export default function Signup(props) {
   return (
     <div className="flex h-[600px] w-[300px] flex-col">
       <h1 className="text-2xl font-bold text-gray-800">Create your<br/>  PopX account</h1>
@@ -102,7 +102,7 @@ export default function Signup() {
         </div>
 
         <button
-          type="submit"
+          type="submit" onClick={()=>props.setPage(4)}
           className="w-full py-2 mt-48 bg-[#6C25FF] text-white rounded-md hover:bg-indigo-700 font-semibold transition"
         >
           Create Account
