@@ -2,7 +2,7 @@ import image from '../assets/image.png'
 
 export default function Account() {
   return (
-    <div className="flex h-[600px] flex-col">
+    <div className="flex h-[600px] w-[300px] flex-col">
       <h1 className="text-xl p-3 font-medium text-gray-800">Account Settings</h1>
       <hr className="text-gray-300" />
       <div className="flex items-start mt-6 p-4 space-x-2">

@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <main className="flex min-h-screen flex-col items-center justify-center">
-      <div className="grid grid-cols-4 gap-4 w-full max-w-7xl">
+      <div className="grid grid-cols-1">
         {page == 1 && <div className="border bg-[#F7F8F9] border-gray-200 rounded-sm p-6">
           <Home />
         </div>}

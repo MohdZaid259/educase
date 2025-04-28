@@ -1,6 +1,6 @@
 export default function Signup() {
   return (
-    <div className="flex h-[600px] flex-col">
+    <div className="flex h-[600px] w-[300px] flex-col">
       <h1 className="text-2xl font-bold text-gray-800">Create your<br/>  PopX account</h1>
 
       <form className="space-y-2 mt-4 text-sm">

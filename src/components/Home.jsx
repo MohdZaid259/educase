@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="flex h-[600px] flex-col justify-end ">
+    <div className="flex h-[600px] w-[300px] flex-col justify-end ">
       <div>
         <h1 className="text-2xl font-bold text-gray-800">Welcome to PopX</h1>
         <p className="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
